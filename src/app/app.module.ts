@@ -12,4 +12,6 @@ import { ServerComponent } from './server/server.component';
   declarations: [ AppComponent, HelloComponent, KishorComponent, ServerComponent ],
   bootstrap:    [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }
