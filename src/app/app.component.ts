@@ -6,5 +6,12 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular kishor' ;
+  name = 'Kishor Thatavarthi' ;
+  status:boolean=true;
+  status1=false;
+  changestatus()
+  {
+    this.status=!this.status;
+    this.status1=!this.status1;
+  }
 }
